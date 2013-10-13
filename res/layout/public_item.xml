@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:paddingLeft="7dip" >
+    <TextView
+        android:id="@+item/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="18sp" />
+	<TextView
+        android:id="@+item/user_harmlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/title"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+item/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/user_harmlevel"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+item/corp_harmlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/status"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+item/corp_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/corp_harmlevel"
+        android:textSize="15sp" />
+
+     <TextView
+        android:id="@+item/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/corp_rank"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+item/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_toRightOf="@item/date"
+       	android:layout_below="@item/corp_rank"
+       	android:layout_marginLeft="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+item/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@item/date"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+</RelativeLayout>

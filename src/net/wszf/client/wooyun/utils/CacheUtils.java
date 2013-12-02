@@ -7,9 +7,7 @@ import android.os.Environment;
 
 import java.io.File;
 
-/**
- * Created by Issac on 7/19/13.
- */
+
 public class CacheUtils {
     /**
      * Get the external app cache directory.
